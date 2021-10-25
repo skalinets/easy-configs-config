@@ -1,7 +1,7 @@
 {
     "type": "object",
     "properties": {
-        "Name": {
+        "name": {
             "type": "string",
             "pattern": "^[A-Z][a-z]+$"
         }
