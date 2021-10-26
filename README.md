@@ -1,5 +1,7 @@
 # Config Storage
 
+This is a repository for configs.
+
 ## How to View and Change Config?
 
 To view the current configuration, use [this link](my_config.json). 
