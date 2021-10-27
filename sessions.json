@@ -1,7 +1,7 @@
 {
   "sessions": [
     { "name": "Session 1", "level": "Basic" },
-    { "name": "Session 2", "level": "Intermediate" },
+    { "name": "Session 2", "level": "Intermediate 2" },
     { "name": "Session 3", "level": "Advanced" }
   ]
 }
