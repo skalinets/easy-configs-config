@@ -6,11 +6,15 @@
         },
         {
             "name": "Squares and Clouds on the same Diagram",
-            "level": "Intermediate"
+            "level": "Advanced"
         },
         {
             "name": "Why UML is Bad",
             "level": "Advanced"
+        },
+        {
+            "name": "Session without Name",
+            "level": "Basic"
         }
     ]
 }
