@@ -14,7 +14,8 @@ jobs:
           git config user.email github-actions@github.com
           BRANCH="update-$RANDOM-$RANDOM"
           git checkout -b $BRANCH
-          git commit -am "Created from google sheet (`date`)"
+          git add .
+          git commit -m "Created from google sheet (`date`)"
           git push --set-upstream origin $BRANCH
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
