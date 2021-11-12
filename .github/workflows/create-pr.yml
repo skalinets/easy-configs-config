@@ -19,4 +19,7 @@ jobs:
           # git push --set-upstream origin $BRANCH
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
+        with:
+          title: Updates from google sheet   
+          delete-branch: true
         
