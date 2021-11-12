@@ -6,7 +6,7 @@
         },
         {
             "name": "Squares and Clouds on the same Diagram",
-            "level": "Advanced"
+            "level": "Intermediate"
         },
         {
             "name": "Why UML is Bad",
@@ -15,6 +15,10 @@
         {
             "name": "New Cool Session",
             "level": "Advanced"
+        },
+        {
+            "name": "Some another session",
+            "level": "Basic"
         }
     ]
 }
