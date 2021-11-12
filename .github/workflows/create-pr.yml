@@ -7,20 +7,14 @@ on:
 jobs:
   create-pr:
     runs-on: ubuntu-latest
+    env:
+      GS_API_KEY: ${{ secrets.GS_API_KEY }}
     steps:
       - name: Get updates from google sheets
         uses: actions/checkout@v2
       - run: |
-          echo 'print("This line will be printed.")' > hello.py
-          python hello.py
-          date > generated.txt
-          # git config user.name github-actions
-          # git config user.email github-actions@github.com
-          # BRANCH="update-$RANDOM-$RANDOM"
-          # git checkout -b $BRANCH
-          # git add .
-          # git commit -am "Created from google sheet (`date`)"
-          # git push --set-upstream origin $BRANCH
+          cd ./scripts
+          python get-json.py
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         env:
