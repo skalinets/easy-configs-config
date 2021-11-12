@@ -15,6 +15,14 @@
         {
             "name": "Some another session",
             "level": "Basic"
+        },
+        {
+            "name": "Nothing",
+            "level": "Intermediate"
+        },
+        {
+            "name": "Tech talks",
+            "level": "Advanced"
         }
     ]
 }
