@@ -1,5 +1,9 @@
 name: Create PR from Google Sheets
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - webhook
 jobs:
   create-pr:
     runs-on: ubuntu-latest
