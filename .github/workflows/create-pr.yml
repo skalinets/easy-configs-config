@@ -15,7 +15,7 @@ jobs:
           BRANCH="update-$RANDOM-$RANDOM"
           git checkout -b $BRANCH
           git add .
-          git commit -am "Created from google sheet (`date`)"
+          git commit -m "Created from google sheet (`date`)"
           git push --set-upstream origin $BRANCH
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
